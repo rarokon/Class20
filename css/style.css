@@ -1,5 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Anton+SC&family=Chela+One&family=Chewy&family=Dancing+Script:wght@400..700&family=Doto:wght@100..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Galada&family=Indie+Flower&family=Lemon&family=Mr+De+Haviland&family=Noto+Serif+Bengali:wght@100..900&family=Permanent+Marker&family=Petit+Formal+Script&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Protest+Revolution&family=Ranchers&family=Shadows+Into+Light&family=Tiro+Bangla:ital@0;1&family=Walter+Turncoat&family=Yatra+One&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: content-box;
+    color: beige;
+}
+body{
+    background-image: url(../rsc/background.jpg);    
+}
+
+#main-container{
+    margin: auto;
+    width: 50%;
+    background: linear-gradient(to bottom, #141E30 50%, #243B55 100%);
+    
+}
+#nav{
+    left: 50%;
+}
+#menu-ul{
+    list-style: none;
+    text-align: center;
+}
+.menu-li{
+    display: inline;
+    margin: 4%;
+    font-size: 2rem;
+    font-family: "Protest Revolution", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.menu-li:hover{
+    padding: 0px 5px;
+    background: linear-gradient(to top, #141E30 50%, #243B55 100%);
+}
+hr{
+    margin-top: 20px;
+}
+
+#dialogue{
+    display: flex;
+    margin: 20px auto;
+    /* position: relative; */
+}
+#logo{
+    /* display: inline; */
+    left: 50%;
+    position: sticky;   
+}
+#logo > img{
+
+    height: 80px;
+    width: 80px;
+}
+
+#ins-name::content{
+    content: "95iCON TECH";
 }

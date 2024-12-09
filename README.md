@@ -1,8 +1,8 @@
-# Project Title
+# CSS-Pseudo Class & Pseudo Element
 
-## Table of Contents
+## Css style description
 
-- [About](#about)
+- [Backgroup image]( body)
 - [Getting Started](#getting_started)
 - [Usage](#usage)
 - [Contributing](../CONTRIBUTING.md)
