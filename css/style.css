@@ -1,61 +1,308 @@
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Anton+SC&family=Chela+One&family=Chewy&family=Dancing+Script:wght@400..700&family=Doto:wght@100..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Galada&family=Indie+Flower&family=Lemon&family=Mr+De+Haviland&family=Noto+Serif+Bengali:wght@100..900&family=Permanent+Marker&family=Petit+Formal+Script&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Protest+Revolution&family=Ranchers&family=Shadows+Into+Light&family=Tiro+Bangla:ital@0;1&family=Walter+Turncoat&family=Yatra+One&display=swap');
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: content-box;
     color: beige;
 }
-body{
-    background-image: url(../rsc/background.jpg);    
+
+/* Body css */
+
+
+body {
+    background-image: url(../rsc/background.jpg);
 }
 
-#main-container{
+/* Main container part */
+
+
+#main-container {
     margin: auto;
     width: 50%;
     background: linear-gradient(to bottom, #141E30 50%, #243B55 100%);
-    
+
 }
-#nav{
+
+/*=============================================
+=            Header manu bar            =
+=============================================*/
+
+
+#nav {
     left: 50%;
 }
-#menu-ul{
+
+#menu-ul {
     list-style: none;
     text-align: center;
 }
-.menu-li{
+
+.menu-li {
     display: inline;
     margin: 4%;
-    font-size: 2rem;
+    font-size: 1.5vw;
     font-family: "Protest Revolution", serif;
     font-weight: 400;
     font-style: normal;
 
 }
-.menu-li:hover{
+
+.menu-li:hover {
     padding: 0px 5px;
     background: linear-gradient(to top, #141E30 50%, #243B55 100%);
 }
-hr{
+
+/*=====  End of Header manu bar  ======*/
+
+
+hr {
     margin-top: 20px;
 }
 
-#dialogue{
+
+/*=============================================
+=            Header logo & dialogue bar            =
+=============================================*/
+
+
+#dialogue {
     display: flex;
     margin: 20px auto;
+    height: 80px;
     /* position: relative; */
 }
-#logo{
+
+#logo {
     /* display: inline; */
-    left: 50%;
-    position: sticky;   
-}
-#logo > img{
-
-    height: 80px;
-    width: 80px;
+    left: 35%;
+    position: fixed;
 }
 
-#ins-name::content{
+#img-logo {
+    height: auto;
+    /* max-width: 100%; */
+    max-width: 80px;
+}
+
+#dialogue-div {
+    left: 41%;
+    position: fixed;
+    font-size: 2vw;
+}
+
+#ins-name {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 62%;
+}
+
+#ins-name::after {
     content: "95iCON TECH";
 }
+
+#bangla-dialogue {
+    font-family: "Galada", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#bangla-dialogue::after {
+    content: "শিক্ষা সেবামূলক অনলাইন প্ল্যাটফর্ম";
+}
+
+/*=====  End of Header logo & dialogue bar  ======*/
+
+
+/*=============================================
+=            Social media links            =
+=============================================*/
+#social-media {
+    position: fixed;
+    bottom: 50%;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#facebook {
+    padding-top: 13px;
+    width: 55px;
+    height: 50px;
+    background: radial-gradient(closest-side, #3f87a6, #0866ff, #022867);
+}
+
+#x-twitter {
+    padding-top: 13px;
+    width: 55px;
+    height: 50px;
+    background: radial-gradient(closest-side, #3f87a6, #000000, #545456);
+}
+
+#youtube {
+    padding-top: 13px;
+    width: 55px;
+    height: 50px;
+    background: radial-gradient(closest-side, #3f87a6, red, rgb(252, 161, 161));
+}
+
+
+/* Mouse hover */
+
+
+#facebook:hover {   
+    background: radial-gradient(closest-side, #3f87a6, #022867, #0866ff);
+}
+
+#x-twitter:hover {
+    background: radial-gradient(closest-side, #3f87a6, #545456, #000000);
+}
+
+#youtube:hover {
+    background: radial-gradient(closest-side, #3f87a6,rgb(252, 161, 161),red);
+}
+
+
+
+/*=====  End of Social media links  ======*/
+
+/*=============================================
+=            Course list right side            =
+=============================================*/
+
+#course-list {
+    position: fixed;
+    right: 0px;
+    bottom: 25%;
+
+    font-size: 1.3vw;
+    color: aliceblue;
+    text-align: left;
+
+    font-family: "Agbalumo", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+#mern{
+    margin-top: 5px;
+    padding-left: 20px;
+    /* height: 42px; */
+    width: 100%;
+    background:linear-gradient(to right, #1D4350 0%, #6f0000 100%);
+    /* padding-top: 10px; */
+    border-radius: 50px 0px 0px 50px;    
+}
+
+#spoken-adult{
+    margin-top: 5px;
+    padding-left: 20px;
+   /* height: 42px; */
+   width: 100%;
+    background:linear-gradient(to right, #200122 0%, #6f0000 100%);
+    /* padding-top: 10px; */
+    border-radius: 50px 0px 0px 50px;
+}
+
+#spoken-child{
+    margin-top: 5px;
+    padding-left: 20px;
+    /* height: 42px; */
+    width: 100%;
+    background:linear-gradient(to right, #000000 0%, #434343 100%);
+    /* padding-top: 10px; */
+    border-radius: 50px 0px 0px 50px;
+}
+
+
+#cyber-security{
+    margin-top: 5px;
+    padding-left: 20px;
+   /* height: 42px; */
+   width: 100%;
+    background:linear-gradient(to right, #6a3093 0%, #a044ff 100%);
+    /* padding-top: 10px; */
+    border-radius: 50px 0px 0px 50px;    
+}
+
+#basic-computer{
+    margin-top: 5px;
+    padding-left: 20px;
+    /* height: 42px; */
+    width: 100%;
+    background:linear-gradient(to right, #BA8B02 0%, #181818 100%);
+    /* padding-top: 10px; */
+    border-radius: 50px 0px 0px 50px;    
+}
+
+#graphic-design{
+    margin-top: 5px;
+    padding-left: 20px;
+   /* height: 42px; */
+   width: 100%;
+    background:linear-gradient(to right, #6441A5 0%, #2a0845 100%);
+    /* padding-top: 10px; */
+    border-radius: 50px 0px 0px 50px;    
+}
+
+#digital-merketing{
+    margin-top: 5px;
+    padding-left: 20px;
+    /* height: 42px; */
+    width: 100%;
+    background:linear-gradient(to right, #4b6cb7 0%, #182848 100%);
+    /* padding-top: 10px; */
+    border-radius: 50px 0px 0px 50px;    
+}
+
+#software-testing{
+    margin-top: 5px;
+    padding-left: 20px;
+    /* height: 42px; */
+    width: 100%;
+    background:linear-gradient(to right, #AA076B 0%, #61045F 100%);
+    /* padding-top: 10px; */
+    border-radius: 50px 0px 0px 50px;    
+}
+ 
+ /* Mouse hover */
+ 
+ 
+#mern:hover{    
+    background:linear-gradient(to left, #1D4350 0%, #6f0000 100%);
+}
+
+#spoken-adult:hover{   
+    background:linear-gradient(to left, #200122 0%, #6f0000 100%);
+   
+}
+
+#spoken-child:hover{    
+    background:linear-gradient(to left, #000000 0%, #434343 100%);    
+}
+
+
+#cyber-security:hover{
+    background:linear-gradient(to left, #6a3093 0%, #a044ff 100%);
+}
+
+#basic-computer:hover{
+    background:linear-gradient(to left, #BA8B02 0%, #181818 100%);
+}
+
+#graphic-design:hover{    
+    background:linear-gradient(to left, #6441A5 0%, #2a0845 100%);    
+}
+
+#digital-merketing:hover{
+    background:linear-gradient(to left, #4b6cb7 0%, #182848 100%);
+    /* background:linear-gradient(to left, #4b6cb7 0%, #182848 100%); */
+}
+
+#software-testing:hover{
+    background:linear-gradient(to left, #AA076B 0%, #61045F 100%);
+}
+
+/*=====  End of Course list right side  ======*/

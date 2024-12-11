@@ -2,8 +2,8 @@
 
 ## Css style description
 
-- [Backgroup image]( body)
-- [Getting Started](#getting_started)
+- [Backgroup image](body)
+- [CSS-Selector](#Class #ID #Pseudo #Position #Display etc.)
 - [Usage](#usage)
 - [Contributing](../CONTRIBUTING.md)
 

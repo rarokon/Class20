@@ -3,12 +3,54 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/style.css" />
     <title>CSS-Pseudo Class & Pseudo Element</title>
   </head>
   <body>
+    <div>
+      <!-- Social media link side bar -->
+      <div id="social-media">
+        <div id="facebook">
+          <a href="https://www.facebook.com/" target="_blank"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+        </div>
+        <div id="x-twitter">
+          <a href="https://x.com/" target="_blank"
+            ><i class="fa-brands fa-x-twitter"></i></a
+          ><br />
+        </div>
+        <div id="youtube">
+          <a href="https://www.youtube.com/" target="_blank"
+            ><i class="fa-brands fa-youtube"></i></a
+          ><br />
+        </div>
+      </div>
+      <!-- End of Social media link side bar -->
+      <!--Course list right side -->
+      <div id="course-list">
+        <div id="mern">MERN Web</div>
+        <div id="spoken-adult">Spoken Adult</div>
+        <div id="spoken-child">Spoken Child</div>
+        <div id="digital-merketing">Digital Marketing</div>
+        <div id="cyber-security">Cyber Security</div>
+        <div id="basic-computer">Cyber Security</div>
+        <div id="graphic-design">Graphic Design</div>
+        <div id="software-testing">Software Testing</div>
+      </div>
+      <!--End of Course list right side -->
+    </div>
     <div id="main-container">
+      <!--Header part-->
       <header id="menu-header">
+        <!-- Menu bar -->
         <div id="nav">
           <nav>
             <ul id="menu-ul">
@@ -20,21 +62,26 @@
             </ul>
           </nav>
         </div>
+        <!-- End of Menu bar -->
         <hr />
+        <!-- Company logo & dialogue -->
         <div id="dialogue">
-            <div id="logo">
-                <img src="./rsc/logo03.png" alt="Our Logo">
+          <div id="logo">
+            <img src="./rsc/logo03.png" alt="Our Logo" id="img-logo" width="80px" height="80px"/>
+          </div>
+          <div id="dialogue-div">
+            <div id="ins-name">
+              <!-- <span>95iCON TECH</span> -->
             </div>
-            <div id="dialogue-div">
-                <div id="ins-name">
-                    <!-- <span>95iCON TECH</span> -->
-                </div>
-                <div id="dialogue-bangla">
-                    <span></span>
-                </div>
+            <div id="bangla-dialogue">
+              <!-- <span></span> -->
             </div>
+          </div>
         </div>
+        <!-- End of Company logo & dialogue -->
       </header>
+      <!--End of Header part-->
+      <hr />
     </div>
   </body>
 </html>
