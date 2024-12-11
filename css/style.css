@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Anton+SC&family=Chela+One&family=Chewy&family=Dancing+Script:wght@400..700&family=Doto:wght@100..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Galada&family=Indie+Flower&family=Lemon&family=Mr+De+Haviland&family=Noto+Serif+Bengali:wght@100..900&family=Permanent+Marker&family=Petit+Formal+Script&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Protest+Revolution&family=Ranchers&family=Shadows+Into+Light&family=Tiro+Bangla:ital@0;1&family=Walter+Turncoat&family=Yatra+One&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+    color: beige;
+}
+
+/* Body css */
+
+
+body {
+    background-image: url(../rsc/background.jpg);
+    background-attachment: fixed;
+}
+
+/* Main container part */
+
+
+#main-container {
+    margin: auto;
+    width: 50%;
+    background: linear-gradient(to bottom, #141E30 50%, #243B55 100%);
+
+}
+
+/*=============================================
+=            Header manu bar            =
+=============================================*/
+
+
+#nav {
+    left: 50%;
+}
+
+#menu-ul {
+    list-style: none;
+    text-align: center;
+}
+
+.menu-li {
+    display: inline;
+    margin: 4%;
+    font-size: 1.5vw;
+    font-family: "Protest Revolution", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.menu-li:hover {
+    padding: 0px 5px;
+    background: linear-gradient(to top, #141E30 50%, #243B55 100%);
+}
+
+/*=====  End of Header manu bar  ======*/
+
+
+
+
+/*=============================================
+=            Header logo & dialogue bar            =
+=============================================*/
+
+
+#dialogue {
+    display: flex;
+    margin: 20px auto 40px 0px;
+    height: 80px;
+    /* position: relative; */
+
+}
+
+#logo {
+    /* display: inline; */
+    left: 35%;
+    position: fixed;
+}
+
+#img-logo {
+    height: auto;
+    /* max-width: 100%; */
+    max-width: 80px;
+}
+
+#dialogue-div {
+    left: 41%;
+    position: fixed;
+    font-size: 2vw;
+}
+
+#ins-name {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 62%;
+}
+
+#ins-name::after {
+    content: "95iCON TECH";
+}
+
+#bangla-dialogue {
+    font-family: "Galada", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#bangla-dialogue::after {
+    content: "শিক্ষা সেবামূলক অনলাইন প্ল্যাটফর্ম";
+    background: linear-gradient( to left, #0099ff, rgb(137, 250, 89));
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+hr {
+    margin-top: 20px;
+    background: linear-gradient(to left, red 50%, rgb(0, 79, 140) 100% );
+    height: 1px;
+}
+
+/*=====  End of Header logo & dialogue bar  ======*/
+
+
+/*=============================================
+=            Social media links            =
+=============================================*/
+#social-media {
+    position: fixed;
+    bottom: 50%;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#facebook {
+    padding-top: 13px;
+    width: 55px;
+    height: 50px;
+    background: radial-gradient(closest-side, #3f87a6, #0866ff, #022867);
+}
+
+#x-twitter {
+    padding-top: 13px;
+    width: 55px;
+    height: 50px;
+    background: radial-gradient(closest-side, #3f87a6, #000000, #545456);
+}
+
+#youtube {
+    padding-top: 13px;
+    width: 55px;
+    height: 50px;
+    background: radial-gradient(closest-side, #3f87a6, red, rgb(252, 161, 161));
+}
+
+
+/* Mouse hover */
+
+
+#facebook:hover {
+    background: radial-gradient(closest-side, #3f87a6, #022867, #0866ff);
+}
+
+#x-twitter:hover {
+    background: radial-gradient(closest-side, #3f87a6, #545456, #000000);
+}
+
+#youtube:hover {
+    background: radial-gradient(closest-side, #3f87a6,rgb(252, 161, 161),red);
+}
+
+
+
+/*=====  End of Social media links  ======*/
+
+/*=============================================
+=            Course list right side            =
+=============================================*/
+
+#course-list {
+    position: fixed;
+    right: 0px;
+    bottom: 25%;
+
+    font-size: 1.3vw;
+    color: aliceblue;
+    text-align: left;
+
+    font-family: "Agbalumo", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+#mern{
+    margin-top: 5px;
+    padding-left: 20px;
+    /* height: 42px; */
+    width: 100%;
+    background:linear-gradient(to right, #1D4350 0%, #6f0000 100%);
+    opacity: 0.7;
+    /* padding-top: 10px; */
+    border-radius: 50px 0px 0px 50px;
+}
+
+#spoken-adult{
+    margin-top: 5px;
+    padding-left: 20px;
+    /* height: 42px; */
+    width: 100%;
+    background:linear-gradient(to right, #200122 0%, #6f0000 100%);
+    opacity: 0.7;
+    /* padding-top: 10px; */
+    border-radius: 50px 0px 0px 50px;
+}
+
+#spoken-child{
+    margin-top: 5px;
+    padding-left: 20px;
+    /* height: 42px; */
+    width: 100%;
+    background:linear-gradient(to right, #000000 0%, #434343 100%);
+    opacity: 0.7;
+    /* padding-top: 10px; */
+    border-radius: 50px 0px 0px 50px;
+}
+
+
+#cyber-security{
+    margin-top: 5px;
+    padding-left: 20px;
+    /* height: 42px; */
+    width: 100%;
+    background:linear-gradient(to right, #6a3093 0%, #a044ff 100%);
+    opacity: 0.7;
+    /* padding-top: 10px; */
+    border-radius: 50px 0px 0px 50px;
+}
+
+#basic-computer{
+    margin-top: 5px;
+    padding-left: 20px;
+    /* height: 42px; */
+    width: 100%;
+    background:linear-gradient(to right, #BA8B02 0%, #181818 100%);
+    opacity: 0.7;
+    /* padding-top: 10px; */
+    border-radius: 50px 0px 0px 50px;
+}
+
+#graphic-design{
+    margin-top: 5px;
+    padding-left: 20px;
+    /* height: 42px; */
+    width: 100%;
+    background:linear-gradient(to right, #6441A5 0%, #2a0845 100%);
+    opacity: 0.7;
+    /* padding-top: 10px; */
+    border-radius: 50px 0px 0px 50px;
+}
+
+#digital-merketing{
+    margin-top: 5px;
+    padding-left: 20px;
+    /* height: 42px; */
+    width: 100%;
+    background:linear-gradient(to right, #4b6cb7 0%, #182848 100%);
+    opacity: 0.7;
+    /* padding-top: 10px; */
+    border-radius: 50px 0px 0px 50px;
+}
+
+#software-testing{
+    margin-top: 5px;
+    padding-left: 20px;
+    /* height: 42px; */
+    width: 100%;
+    background:linear-gradient(to right, #AA076B 0%, #61045F 100%);
+    opacity: 0.7;
+    /* padding-top: 10px; */
+    border-radius: 50px 0px 0px 50px;
+}
+
+ /* Mouse hover */
+
+
+#mern:hover{
+    background:linear-gradient(to left, #1D4350 0%, #6f0000 100%);
+    opacity: 1;
+}
+
+#spoken-adult:hover{
+    background:linear-gradient(to left, #200122 0%, #6f0000 100%);
+    opacity: 1;
+}
+
+#spoken-child:hover{
+    background:linear-gradient(to left, #000000 0%, #434343 100%);
+    opacity: 1;
+}
+
+
+#cyber-security:hover{
+    background:linear-gradient(to left, #6a3093 0%, #a044ff 100%);
+    opacity: 1;
+}
+
+#basic-computer:hover{
+    background:linear-gradient(to left, #BA8B02 0%, #181818 100%);
+    opacity: 1;
+}
+
+#graphic-design:hover{
+    background:linear-gradient(to left, #6441A5 0%, #2a0845 100%);
+    opacity: 1;
+}
+
+#digital-merketing:hover{
+    background:linear-gradient(to left, #4b6cb7 0%, #182848 100%);
+    opacity: 1;
+    /* background:linear-gradient(to left, #4b6cb7 0%, #182848 100%); */
+}
+
+#software-testing:hover{
+    background:linear-gradient(to left, #AA076B 0%, #61045F 100%);
+    opacity: 1;
+}
+
+/*=====  End of Course list right side  ======*/
+
+
+/*=============================================
+=            Scholarship dialogue            =
+=============================================*/
+
+#scholar-div{
+    margin: 20px auto 20px 0px;
+    text-align: center;
+    text-shadow: 2px 2px #9eedf9;
+    text-decoration: overline underline;
+    text-decoration-color: whitesmoke;
+    font-family: "Protest Revolution", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.6vw;
+
+}
+
+#scholar-div > p{
+    letter-spacing: 7px;
+
+    background: linear-gradient(to right, rgb(215, 233, 255) 50%, rgb(242, 255, 0));
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*=====  End of Scholarship dialogue  ======*/
+
+
+/*=============================================
+=            Our course list            =
+=============================================*/
+#course-list-section{
+    text-align: center;
+    margin: 20px auto;
+}
+
+#course-list-section > ul{
+    columns : 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    padding-left: 10%;
+}
+
+
+/*=====  End of Our course list  ======*/
