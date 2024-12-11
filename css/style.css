@@ -74,8 +74,9 @@ body {
 
 #logo {
     /* display: inline; */
+    padding: 10px;
     left: 35%;
-    position: fixed;
+    position: absolute;
 }
 
 #img-logo {
@@ -86,7 +87,7 @@ body {
 
 #dialogue-div {
     left: 41%;
-    position: fixed;
+    position: absolute;
     font-size: 2vw;
 }
 
@@ -340,20 +341,27 @@ hr {
 #scholar-div{
     margin: 20px auto 20px 0px;
     text-align: center;
-    text-shadow: 2px 2px #9eedf9;
-    text-decoration: overline underline;
-    text-decoration-color: whitesmoke;
+    /* text-shadow: 2px 2px #9eedf9; */
+    text-transform: uppercase;
+    
     font-family: "Protest Revolution", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.6vw;
-
+    font-size: 1.4vw;    
 }
 
 #scholar-div > p{
     letter-spacing: 7px;
-
     background: linear-gradient(to right, rgb(215, 233, 255) 50%, rgb(242, 255, 0));
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;    
+}
+
+#scholar-div > p:nth-child(3){
+    text-decoration: overline underline;
+    text-decoration-color: whitesmoke;
+    background: linear-gradient(to left, rgb(215, 233, 255) 50%, rgb(242, 255, 0));
     -webkit-background-clip: text;
             background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -365,17 +373,38 @@ hr {
 /*=============================================
 =            Our course list            =
 =============================================*/
-#course-list-section{
-    text-align: center;
+#course-list-section{    
     margin: 20px auto;
+    background: rgba(204, 204, 204, 0.1);
+    /* background-color: #0099ff; */
+    /* background: rgb(red, green, blue, .5); */
+    /* background: transparent; */
+    /* opacity: .6; */
+    border: 1px solid silver;
+    width: 90%;
+    padding-bottom:20px;
+    padding-top:20px;
 }
 
 #course-list-section > ul{
+    list-style-type: "👉";
     columns : 2;
     -webkit-columns: 2;
     -moz-columns: 2;
     padding-left: 10%;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.3vw;
+    background: linear-gradient(to bottom, rgb(77, 144, 252), whitesmoke);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
+#course-list-section >ul> li{
+    margin-bottom: 20px;
+}
 
 /*=====  End of Our course list  ======*/
