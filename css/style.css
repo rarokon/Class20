@@ -26,11 +26,45 @@ body {
 
 }
 
+#join-us{
+    display: flex;
+    position: fixed;
+    border-radius: 6px;
+    bottom: 10%;
+    left: 16.1%;
+    height: 90px;
+    width: 170px;
+    background-color: rgb(134, 250, 157);
+    text-align: center;
+    padding-top: 10px;
+    opacity: .6;
+    margin: auto;
+}
+#join-us:hover{
+    opacity: 1;
+}
+#join-span {
+    width: 50%;
+    text-align: right;
+    
+}
+#join-span > span{
+    font-size: 2vw;
+    color: #022867;
+    line-height: .5;
+}
+#qr-code{
+    width: 50%;
+}
+#qr-code > img{
+    max-width: 80px;
+}
+
 #go-to-top{    
     position: fixed;
     border-radius: 6px;
     bottom: 10%;
-    left: 5%;
+    right: 21.8%;
     height: 60px;
     width: 60px;
     background-color: cornflowerblue;
