@@ -31,7 +31,7 @@ body {
     position: fixed;
     border-radius: 6px;
     bottom: 10%;
-    left: 16.1%;
+    left: 0%;
     height: 90px;
     width: 170px;
     background-color: rgb(134, 250, 157);
@@ -64,7 +64,7 @@ body {
     position: fixed;
     border-radius: 6px;
     bottom: 10%;
-    right: 21.8%;
+    right: 0%;
     height: 60px;
     width: 60px;
     background-color: cornflowerblue;
@@ -935,7 +935,7 @@ summary:hover{
 
 form{
     box-sizing: border-box;
-    width: 500px;
+    width: 90%;
     padding: 10px; 
 }
 
